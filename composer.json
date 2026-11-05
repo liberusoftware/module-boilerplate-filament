@@ -13,11 +13,15 @@
     }
   },
   "scripts": {
-    "check": "@php -l src/BoilerplatePlugin.php"
+    "check": [
+      "@php -l src/BoilerplatePlugin.php",
+      "@php -l src/BoilerplateServiceProvider.php"
+    ]
   },
   "extra": {
     "liberu": {
       "name": "boilerplate-filament"
     }
-  }
+  },
+  "version": "0.1.0-alpha.0"
 }
